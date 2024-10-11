@@ -1,0 +1,921 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f1d78818-0990-46f5-a3cf-bcec55683282",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Values & Variables: - \n",
+    "x=5\n",
+    "#The = sign is helping to store the value, \"5\" in the varaible \"x\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "cc25772e-32be-42fa-8c9b-dbf1556b7ab9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "cd503b16-09ff-4095-94b6-b58af505c79c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pam = 56"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "a520aced-33b1-46dd-9297-e1cecb18d2c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "56"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pam"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "65565eae-cf44-4418-9674-210ed2ff5bce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Values & Variables\n",
+    "#Operators in Python\n",
+    "#Condtional Statements (if,else)\n",
+    "#Loops\n",
+    "#Functions (In-Python & def)\n",
+    "#Libraries"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "21976322-73b5-4854-81e0-88e0a35a1868",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fgh=89"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "c6a70399-c289-482e-b0eb-efe68c208ee8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "89"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fgh"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ad0861e6-f924-4c77-a768-fa04cabab296",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "f_g_h = 89"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "c0c2bed4-22eb-4d7a-ab06-f5d4b3cb4f03",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "arnav_sharma = 123"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "ff2911e6-22ca-43df-9727-70654ebcd931",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "123"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arnav_sharma"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "afc4451f-c9fc-4742-9e3f-69c23497d2e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'C:\\\\Users\\\\ADMIN1'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pwd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "b2b3f08e-d04b-4486-8908-5ac858a65eb8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Kernel Architecture: - \n",
+    "\n",
+    "# Step 1 - Input the data\n",
+    "# Step 2 - The input data as taken from step 1 goes in \"Syntax Checker & Translator (STC)\" which is installed in your system's CPU.\n",
+    "# Step 2.1 - The STC converts the input into \"byte\" code\n",
+    "# Step 3 - The byte code now goes into the another component of python arch. \"Python Virtual Machine (PVM)\" - Compiler\n",
+    "# Step 3.1 - This PVM converts the byte code into machine output\n",
+    "# Step 4 - We as humans get the value from Step 3.1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "32c39d6a-ad2e-471a-a0af-47bddad66316",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1+23"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "1d0fe1f4-6db0-4619-b2fd-4515e215f1b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "f8fd884b-a43a-450f-af00-b90a1cb1ac8c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Pandas Dataframe\n",
+    "df = pd.read_csv(r\"C:\\Users\\ADMIN1\\Downloads\\23.Date Functions (2).csv\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "fbe30c1a-ae76-4a41-8cde-c260eb9aa835",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Date Functions</th>\n",
+       "      <th>Unnamed: 1</th>\n",
+       "      <th>Unnamed: 2</th>\n",
+       "      <th>Unnamed: 3</th>\n",
+       "      <th>Unnamed: 4</th>\n",
+       "      <th>Unnamed: 5</th>\n",
+       "      <th>Unnamed: 6</th>\n",
+       "      <th>Unnamed: 7</th>\n",
+       "      <th>Unnamed: 8</th>\n",
+       "      <th>Start date in Excel</th>\n",
+       "      <th>1/1/1900</th>\n",
+       "      <th>1</th>\n",
+       "      <th>Unnamed: 12</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>2/19/1982</td>\n",
+       "      <td>30001</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Transaction Date</td>\n",
+       "      <td>Amount</td>\n",
+       "      <td>Category</td>\n",
+       "      <td>Description</td>\n",
+       "      <td>Day</td>\n",
+       "      <td>Month</td>\n",
+       "      <td>Year</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1/15/2022</td>\n",
+       "      <td>1000</td>\n",
+       "      <td>Grocery</td>\n",
+       "      <td>Supermarket A</td>\n",
+       "      <td>29</td>\n",
+       "      <td>10</td>\n",
+       "      <td>2017</td>\n",
+       "      <td>29-Oct-17</td>\n",
+       "      <td>862.0</td>\n",
+       "      <td>Date as Text</td>\n",
+       "      <td>=DATE(A4</td>\n",
+       "      <td>10/29/2017</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>2/3/2022</td>\n",
+       "      <td>2000</td>\n",
+       "      <td>Electronics</td>\n",
+       "      <td>Electronic Store B</td>\n",
+       "      <td>9</td>\n",
+       "      <td>3</td>\n",
+       "      <td>2020</td>\n",
+       "      <td>9-Mar-20</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>02-03-2022</td>\n",
+       "      <td>=DATEVALUE(</td>\n",
+       "      <td>44,622.00</td>\n",
+       "      <td>To convert the text date into numerical date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>3/10/2022</td>\n",
+       "      <td>500</td>\n",
+       "      <td>Clothing</td>\n",
+       "      <td>Fashion Outlet C</td>\n",
+       "      <td>15</td>\n",
+       "      <td>7</td>\n",
+       "      <td>2000</td>\n",
+       "      <td>15-Jul-00</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=DAY(</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Give the Day from a date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>4/22/2022</td>\n",
+       "      <td>1500</td>\n",
+       "      <td>Home Goods</td>\n",
+       "      <td>Household Depot D</td>\n",
+       "      <td>4</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2005</td>\n",
+       "      <td>4-Jan-05</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=MONTH(</td>\n",
+       "      <td>10</td>\n",
+       "      <td>Give the Month from a date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>6</th>\n",
+       "      <td>5/8/2022</td>\n",
+       "      <td>800</td>\n",
+       "      <td>Grocery</td>\n",
+       "      <td>Local Market E</td>\n",
+       "      <td>30</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2003</td>\n",
+       "      <td>2-Mar-03</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=YEAR(</td>\n",
+       "      <td>2017</td>\n",
+       "      <td>Give the year from a date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>7</th>\n",
+       "      <td>6/17/2022</td>\n",
+       "      <td>1200</td>\n",
+       "      <td>Electronics</td>\n",
+       "      <td>Tech Shop F</td>\n",
+       "      <td>15</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2013</td>\n",
+       "      <td>15-Jan-13</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=TODAY(</td>\n",
+       "      <td>30-Sep-24</td>\n",
+       "      <td>Give the current date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>8</th>\n",
+       "      <td>7/5/2022</td>\n",
+       "      <td>300</td>\n",
+       "      <td>Clothing</td>\n",
+       "      <td>Boutique G</td>\n",
+       "      <td>30</td>\n",
+       "      <td>3</td>\n",
+       "      <td>2000</td>\n",
+       "      <td>30-Mar-00</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=NOW(</td>\n",
+       "      <td>9/30/2024 8:43:48</td>\n",
+       "      <td>Give the current date and current time</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9</th>\n",
+       "      <td>8/19/2022</td>\n",
+       "      <td>2000</td>\n",
+       "      <td>Home Goods</td>\n",
+       "      <td>Furniture World H</td>\n",
+       "      <td>17</td>\n",
+       "      <td>4</td>\n",
+       "      <td>2018</td>\n",
+       "      <td>17-Apr-18</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=WEEKDAY(</td>\n",
+       "      <td>1</td>\n",
+       "      <td>Give the day of the week of the date</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>10</th>\n",
+       "      <td>9/12/2022</td>\n",
+       "      <td>700</td>\n",
+       "      <td>Grocery</td>\n",
+       "      <td>Mega Mart I</td>\n",
+       "      <td>23</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2016</td>\n",
+       "      <td>23-Feb-16</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=WEEKNUM(</td>\n",
+       "      <td>11</td>\n",
+       "      <td>Give the week number of that week in a year</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>11</th>\n",
+       "      <td>10/28/2022</td>\n",
+       "      <td>900</td>\n",
+       "      <td>Electronics</td>\n",
+       "      <td>Gadget Store J</td>\n",
+       "      <td>11</td>\n",
+       "      <td>7</td>\n",
+       "      <td>2020</td>\n",
+       "      <td>11-Jul-20</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=EOMONTH(</td>\n",
+       "      <td>28-Feb-17</td>\n",
+       "      <td>Give you the last day of the month after speci...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>12</th>\n",
+       "      <td>11/15/2022</td>\n",
+       "      <td>600</td>\n",
+       "      <td>Clothing</td>\n",
+       "      <td>Fashion Mall K</td>\n",
+       "      <td>24</td>\n",
+       "      <td>4</td>\n",
+       "      <td>2022</td>\n",
+       "      <td>24-Apr-22</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=HOUR(</td>\n",
+       "      <td>8</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>13</th>\n",
+       "      <td>12/3/2022</td>\n",
+       "      <td>1800</td>\n",
+       "      <td>Home Goods</td>\n",
+       "      <td>Home Essentials L</td>\n",
+       "      <td>25</td>\n",
+       "      <td>11</td>\n",
+       "      <td>2006</td>\n",
+       "      <td>25-Nov-06</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=SECOND(</td>\n",
+       "      <td>48</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>14</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=MINUTE(</td>\n",
+       "      <td>43</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>15</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>=DAYS(</td>\n",
+       "      <td>784</td>\n",
+       "      <td>Difference Between the two dates</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>16</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>17</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>18</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>20</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>21</th>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "            Date Functions    Unnamed: 1           Unnamed: 2  \\\n",
+       "0                      NaN           NaN                  NaN   \n",
+       "1      Transaction Date        Amount        Category           \n",
+       "2                1/15/2022          1000              Grocery   \n",
+       "3                 2/3/2022          2000          Electronics   \n",
+       "4                3/10/2022           500             Clothing   \n",
+       "5                4/22/2022          1500           Home Goods   \n",
+       "6                 5/8/2022           800              Grocery   \n",
+       "7                6/17/2022          1200          Electronics   \n",
+       "8                 7/5/2022           300             Clothing   \n",
+       "9                8/19/2022          2000           Home Goods   \n",
+       "10               9/12/2022           700              Grocery   \n",
+       "11              10/28/2022           900          Electronics   \n",
+       "12              11/15/2022           600             Clothing   \n",
+       "13               12/3/2022          1800           Home Goods   \n",
+       "14                     NaN           NaN                  NaN   \n",
+       "15                     NaN           NaN                  NaN   \n",
+       "16                     NaN           NaN                  NaN   \n",
+       "17                     NaN           NaN                  NaN   \n",
+       "18                     NaN           NaN                  NaN   \n",
+       "19                     NaN           NaN                  NaN   \n",
+       "20                     NaN           NaN                  NaN   \n",
+       "21                     NaN           NaN                  NaN   \n",
+       "\n",
+       "                      Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7  \\\n",
+       "0                            NaN        NaN        NaN        NaN        NaN   \n",
+       "1      Description                      Day      Month       Year        NaN   \n",
+       "2                  Supermarket A         29         10       2017  29-Oct-17   \n",
+       "3             Electronic Store B          9          3       2020   9-Mar-20   \n",
+       "4               Fashion Outlet C         15          7       2000  15-Jul-00   \n",
+       "5              Household Depot D          4          1       2005   4-Jan-05   \n",
+       "6                 Local Market E         30          2       2003   2-Mar-03   \n",
+       "7                    Tech Shop F         15          1       2013  15-Jan-13   \n",
+       "8                     Boutique G         30          3       2000  30-Mar-00   \n",
+       "9              Furniture World H         17          4       2018  17-Apr-18   \n",
+       "10                   Mega Mart I         23          2       2016  23-Feb-16   \n",
+       "11                Gadget Store J         11          7       2020  11-Jul-20   \n",
+       "12                Fashion Mall K         24          4       2022  24-Apr-22   \n",
+       "13             Home Essentials L         25         11       2006  25-Nov-06   \n",
+       "14                           NaN        NaN        NaN        NaN        NaN   \n",
+       "15                           NaN        NaN        NaN        NaN        NaN   \n",
+       "16                           NaN        NaN        NaN        NaN        NaN   \n",
+       "17                           NaN        NaN        NaN        NaN        NaN   \n",
+       "18                           NaN        NaN        NaN        NaN        NaN   \n",
+       "19                           NaN        NaN        NaN        NaN        NaN   \n",
+       "20                           NaN        NaN        NaN        NaN        NaN   \n",
+       "21                           NaN        NaN        NaN        NaN        NaN   \n",
+       "\n",
+       "    Unnamed: 8 Start date in Excel     1/1/1900                  1  \\\n",
+       "0          NaN                 NaN    2/19/1982              30001   \n",
+       "1          NaN                 NaN          NaN                NaN   \n",
+       "2        862.0        Date as Text     =DATE(A4         10/29/2017   \n",
+       "3          NaN          02-03-2022  =DATEVALUE(         44,622.00    \n",
+       "4          NaN                 NaN        =DAY(                 29   \n",
+       "5          NaN                 NaN      =MONTH(                 10   \n",
+       "6          NaN                 NaN       =YEAR(               2017   \n",
+       "7          NaN                 NaN      =TODAY(          30-Sep-24   \n",
+       "8          NaN                 NaN        =NOW(  9/30/2024 8:43:48   \n",
+       "9          NaN                 NaN    =WEEKDAY(                  1   \n",
+       "10         NaN                 NaN    =WEEKNUM(                 11   \n",
+       "11         NaN                 NaN    =EOMONTH(          28-Feb-17   \n",
+       "12         NaN                 NaN       =HOUR(                  8   \n",
+       "13         NaN                 NaN     =SECOND(                 48   \n",
+       "14         NaN                 NaN     =MINUTE(                 43   \n",
+       "15         NaN                 NaN       =DAYS(                784   \n",
+       "16         NaN                 NaN          NaN                NaN   \n",
+       "17         NaN                 NaN          NaN                NaN   \n",
+       "18         NaN                 NaN          NaN                NaN   \n",
+       "19         NaN                 NaN          NaN                NaN   \n",
+       "20         NaN                 NaN          NaN                NaN   \n",
+       "21         NaN                 NaN          NaN                NaN   \n",
+       "\n",
+       "                                          Unnamed: 12  \n",
+       "0                                                 NaN  \n",
+       "1                                                 NaN  \n",
+       "2                                                 NaN  \n",
+       "3        To convert the text date into numerical date  \n",
+       "4                            Give the Day from a date  \n",
+       "5                          Give the Month from a date  \n",
+       "6                           Give the year from a date  \n",
+       "7                               Give the current date  \n",
+       "8              Give the current date and current time  \n",
+       "9                Give the day of the week of the date  \n",
+       "10        Give the week number of that week in a year  \n",
+       "11  Give you the last day of the month after speci...  \n",
+       "12                                                NaN  \n",
+       "13                                                NaN  \n",
+       "14                                                NaN  \n",
+       "15                   Difference Between the two dates  \n",
+       "16                                                NaN  \n",
+       "17                                                NaN  \n",
+       "18                                                NaN  \n",
+       "19                                                NaN  \n",
+       "20                                                NaN  \n",
+       "21                                                NaN  "
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "653643df-01e8-4733-b67e-e47dbd6233e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Operators in Python - \n",
+    "#Arithmetic Operators - +,-,*,/,%,//\n",
+    "2+5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "824798e9-a3e1-42df-aba1-e4eb2bf7eff4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6*5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "3f7cb7f9-22a1-4f80-a086-64b47179a924",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10.0"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "30/3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "49c764bb-399d-4544-a198-3f98e909f23d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "91"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "98-7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "81e98606-8872-4146-8ac5-4ab76943c2ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#% Operator: - This basically helps us to know the remainder.\n",
+    "30%7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "79f18264-7312-4b91-9ba9-ebc127bf1caf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "if x%5 == 0:\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "8f4fb720-b6c8-4827-823b-5a9bc876f65a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#// Operator: - This basically helps us to know the Divisor\n",
+    "96//6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ba81831-31a7-44b0-badf-e21b9ad6b1f6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
